@@ -1,20 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
+/* ========== Estructura general ========== */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ========== Encabezado ========== */
 header {
-    background-color: #6a0dad; /* Un color morado, puedes cambiarlo */
+    background-color: #6a0dad;
     color: white;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* ========== Contenido principal ========== */
 main {
+    flex: 1;
     padding: 20px;
     max-width: 900px;
     margin: 20px auto;
@@ -23,7 +34,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para los Tabs */
+/* ========== Tabs ========== */
 .tabs {
     display: flex;
     justify-content: center;
@@ -56,13 +67,12 @@ main {
 }
 
 .tab-content {
-    display: none; /* Oculta todos los contenidos de los tabs por defecto */
+    display: none;
 }
 
 .tab-content.active {
-    display: block; /* Muestra solo el contenido del tab activo */
+    display: block;
 }
-
 
 .tab-content h2 {
     text-align: center;
@@ -70,6 +80,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* ========== Tablas ========== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -118,17 +129,121 @@ table tr:hover {
     text-decoration: underline;
 }
 
+/* ========== Footer ========== */
 footer {
     text-align: center;
     padding: 1rem 0;
-    margin-top: 30px;
     background-color: #333;
     color: white;
     font-size: 0.9em;
     width: 100%;
+    margin-top: auto;
 }
 
-footer.aventarAlFondo {
+/* ========== Menú lateral ========== */
+#menuToggle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+#sidebar {
     position: fixed;
-    bottom: 0;
+    top: 0;
+    left: -250px;
+    width: 220px;
+    height: 100%;
+    background-color: #6a0dad;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+#sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar nav ul li {
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#sidebar nav ul li:hover {
+    background-color: #5a0099;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+/* ========== Secciones ocultas (About / CEO) ========== */
+.hidden-section {
+    display: none;
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ========== Sección: Acerca de Moonly ========== */
+.about-logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#aboutMoonly h2,
+#aboutMoonly h3 {
+    color: #6a0dad;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+#aboutMoonly p,
+#aboutMoonly li {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+#aboutMoonly ul {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+.about-intro {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.about-footer {
+    margin-top: 2em;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+}
+
+.about-footer a {
+    color: #6a0dad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-footer a:hover {
+    text-decoration: underline;
 }

@@ -2,43 +2,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabContents = document.querySelectorAll('.tab-content');
 
-    // Función para activar un tab
     function activateTab(tabId) {
         tabButtons.forEach(button => {
-            if (button.dataset.tab === tabId) {
-                button.classList.add('active');
-            } else {
-                button.classList.remove('active');
-            }
-
-            const footerElement = document.querySelector('footer');
-            footerElement.classList.remove('aventarAlFondo');
-
-            if(tabId === "staff" || tabId == "representantes") {
-                footerElement.classList.add('aventarAlFondo');
-            }
+            button.classList.toggle('active', button.dataset.tab === tabId);
         });
 
         tabContents.forEach(content => {
-            if (content.id === tabId) {
-                content.classList.add('active');
-            } else {
-                content.classList.remove('active');
-            }
+            content.classList.toggle('active', content.id === tabId);
         });
     }
 
-    // Event listeners para los botones de los tabs
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
             activateTab(button.dataset.tab);
         });
     });
 
-    // Función para renderizar la tabla
     function renderMembersTable(members, tableId) {
         const tableBody = document.querySelector(`#${tableId} tbody`);
-        tableBody.innerHTML = ''; // Limpiar la tabla antes de añadir nuevos miembros
+        tableBody.innerHTML = '';
 
         if (members.length === 0) {
             tableBody.innerHTML = `<tr><td colspan="3" style="text-align: center;">No hay miembros para mostrar en esta categoría.</td></tr>`;
@@ -48,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         members.forEach(member => {
             const row = document.createElement('tr');
 
-            // Celda de Imagen de Perfil
             const profileImageCell = document.createElement('td');
             const img = document.createElement('img');
             img.src = member.profileImage;
@@ -57,12 +38,10 @@ document.addEventListener('DOMContentLoaded', () => {
             profileImageCell.appendChild(img);
             row.appendChild(profileImageCell);
 
-            // Celda de Nombre
             const nameCell = document.createElement('td');
             nameCell.textContent = member.name;
             row.appendChild(nameCell);
 
-            // Celda de Redes Sociales
             const socialsCell = document.createElement('td');
             const socialLinksDiv = document.createElement('div');
             socialLinksDiv.classList.add('social-links');
@@ -72,8 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     const link = document.createElement('a');
                     link.href = social.url;
                     link.textContent = social.platform;
-                    link.target = "_blank"; // Abrir en una nueva pestaña
-                    link.rel = "noopener noreferrer"; // Buena práctica de seguridad
+                    link.target = "_blank";
+                    link.rel = "noopener noreferrer";
                     socialLinksDiv.appendChild(link);
                 });
             } else {
@@ -86,33 +65,84 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Cargar los miembros y renderizar las tablas
     fetch('miembros.json')
         .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             return response.json();
         })
         .then(allMembers => {
-            // Filtrar miembros por rol
             const members = allMembers.filter(member => member.roles.includes('Miembro'));
             const staff = allMembers.filter(member => member.roles.includes('Staff'));
             const representantes = allMembers.filter(member => member.roles.includes('Representante'));
 
-            // Renderizar cada tabla
             renderMembersTable(members, 'membersTable_miembros');
             renderMembersTable(staff, 'membersTable_staff');
             renderMembersTable(representantes, 'membersTable_representantes');
 
-            // Activar el primer tab por defecto (Miembros)
             activateTab('miembros');
         })
         .catch(error => {
             console.error('Hubo un problema al cargar los miembros:', error);
-            // Mostrar un mensaje de error en todas las tablas si falla la carga
             document.querySelectorAll('.tab-content tbody').forEach(tbody => {
-                tbody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: red;">No se pudieron cargar los miembros. Inténtalo de nuevo más tarde.</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="3" style="text-align: center; color: red;">No se pudieron cargar los miembros.</td></tr>`;
             });
         });
+
+    // Lógica del menú lateral
+    const menuToggle = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('sidebar');
+    menuToggle.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+    });
+
+    const sectionButtons = sidebar.querySelectorAll('li');
+    const allSections = ['mainContent', 'aboutMoonly', 'ceoSection'];
+
+    sectionButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const target = button.dataset.section;
+
+            allSections.forEach(id => {
+                const section = document.getElementById(id);
+                if (section) {
+                    section.style.display = (id === target) ? 'block' : 'none';
+                }
+            });
+
+            if (target === 'mainContent') {
+                document.querySelector('.tab-button[data-tab="miembros"]').click();
+            }
+
+            sidebar.classList.remove('active');
+        });
+    });
+
+    mostrarSeccionDesdeHash();
+
+    window.addEventListener('hashchange', mostrarSeccionDesdeHash);
 });
+
+function mostrarSeccionDesdeHash() {
+    const hash = location.hash.replace('#', '');
+
+    const mapa = {
+        'miembros': 'mainContent',
+        'acercaDeMoonly': 'aboutMoonly',
+        'nuestraCEO': 'ceoSection'
+    };
+
+    const destino = mapa[hash];
+    if (destino) {
+
+        ['mainContent', 'aboutMoonly', 'ceoSection'].forEach(id => {
+            const section = document.getElementById(id);
+            if (section) section.style.display = (id === destino) ? 'block' : 'none';
+        });
+
+        if (destino === 'mainContent') {
+            document.querySelector('.tab-button[data-tab="miembros"]').click();
+        }
+
+        sidebar.classList.remove('active');
+    }
+}

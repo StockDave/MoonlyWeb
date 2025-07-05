@@ -7,67 +7,147 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Moonly Grupo VTuber</h1>
-    </header>
+    <div class="layout-wrapper">
+        <!-- Botón para mostrar/ocultar el menú -->
+        <button id="menuToggle" aria-label="Menú lateral">&#9776;</button>
 
-    <main>
-        <nav class="tabs">
-            <button class="tab-button active" data-tab="miembros">Miembros</button>
-            <button class="tab-button" data-tab="staff">Staff</button>
-            <button class="tab-button" data-tab="representantes">Representantes</button>
-        </nav>
+        <!-- Menú lateral oculto -->
+        <aside id="sidebar">
+            <nav>
+                <ul>
+                    <li data-section="mainContent">Nuestros miembros</li>
+                    <li data-section="aboutMoonly">Acerca de Moonly</li>
+                    <li data-section="ceoSection">Nuestra CEO</li>
+                </ul>
+            </nav>
+        </aside>
 
-        <section id="miembros" class="tab-content active">
-            <h2>Miembros del Grupo</h2>
-            <table id="membersTable_miembros">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Nombre</th>
-                        <th>Redes Sociales</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    </tbody>
-            </table>
-        </section>
+        <header>
+            <h1>Moonly Grupo VTuber</h1>
+        </header>
 
-        <section id="staff" class="tab-content">
-            <h2>Staff</h2>
-            <table id="membersTable_staff">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Nombre</th>
-                        <th>Redes Sociales</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    </tbody>
-            </table>
-        </section>
+        <main>
+            <!-- Sección principal con tabs -->
+            <div id="mainContent">
+                <nav class="tabs">
+                    <button class="tab-button active" data-tab="miembros">Miembros</button>
+                    <button class="tab-button" data-tab="staff">Staff</button>
+                    <button class="tab-button" data-tab="representantes">Representantes</button>
+                </nav>
 
-        <section id="representantes" class="tab-content">
-            <h2>Representantes</h2>
-            <table id="membersTable_representantes">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Nombre</th>
-                        <th>Redes Sociales</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    </tbody>
-            </table>
-        </section>
-    </main>
+                <section id="miembros" class="tab-content active">
+                    <h2>Miembros del Grupo</h2>
+                    <table id="membersTable_miembros">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Nombre</th>
+                                <th>Redes Sociales</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </section>
 
-    <footer>
-        <p>© 2025 Moonly Grupo VTuber. Todos los derechos reservados.</p>
-    </footer>
+                <section id="staff" class="tab-content">
+                    <h2>Staff</h2>
+                    <table id="membersTable_staff">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Nombre</th>
+                                <th>Redes Sociales</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </section>
 
+                <section id="representantes" class="tab-content">
+                    <h2>Representantes</h2>
+                    <table id="membersTable_representantes">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Nombre</th>
+                                <th>Redes Sociales</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </section>
+            </div>
+
+            <!-- Sección: Acerca de Moonly -->
+            <section id="aboutMoonly" class="hidden-section">
+                <h2>Acerca de Moonly</h2>
+
+                <img src="images/moonly-logo.png" alt="Logo de Moonly" class="about-logo">
+
+                <p class="about-intro">
+                    <strong>Moonly</strong> es un grupo de VTubers hispanohablantes independientes. Nos une la pasión por crear y compartir
+                    en un ambiente de respeto, diversidad y colaboración. En Moonly, tod@s son bienvenid@s, sin importar el formato
+                    de su avatar (PNG, 2D, 3D o estático). 
+                </p>
+
+                <h3>🌸 Nuestra filosofía</h3>
+                <p>
+                    Valoramos la autenticidad, la inclusión y la libertad creativa. Fomentamos un espacio libre de discriminación,
+                    donde puedes expresarte sin etiquetas ni restricciones de género. Aquí, cada voz tiene valor.
+                </p>
+
+                <h3>🎯 Nuestro propósito</h3>
+                <p>
+                    Moonly nació para brindar un entorno de crecimiento colectivo. Buscamos crear lazos, compartir aprendizajes,
+                    colaborar y construir amistades sinceras entre creadores de contenido.
+                </p>
+
+                <h3>📌 Compromisos como miembro</h3>
+                <ul>
+                    <li>Participar activamente y con actitud positiva.</li>
+                    <li>Colaborar o interactuar con al menos un miembro regularmente.</li>
+                    <li>Apoyar las publicaciones importantes del grupo (retweets, likes, difusión).</li>
+                    <li>Comunicar pausas o ausencias prolongadas con anticipación.</li>
+                </ul>
+
+                <h3>🎁 Beneficios de pertenecer a Moonly</h3>
+                <ul>
+                    <li>Prioridad en eventos internos.</li>
+                    <li>Visibilidad compartida y oportunidades de colaboración.</li>
+                    <li>Un entorno seguro y enfocado en el desarrollo personal y profesional.</li>
+                </ul>
+
+                <h3>📖 Normas clave</h3>
+                <ul>
+                    <li><strong>Economía:</strong> No se ofrece apoyo monetario. Acuerdos privados deben notificarse a representantes.</li>
+                    <li><strong>Relaciones:</strong> Se desaconsejan relaciones amorosas internas; deben comunicarse si surgen.</li>
+                    <li><strong>Cero acoso:</strong> No se tolera discriminación ni acoso. Cualquier incidente debe reportarse.</li>
+                    <li><strong>Actividades externas:</strong> El grupo no se responsabiliza por opiniones o conflictos externos.</li>
+                    <li><strong>Respeto mutuo:</strong> La empatía y la escucha son fundamentales.</li>
+                </ul>
+
+                <div class="about-footer">
+                    <p>✨ Conoce más en <a href="https://x.com/MoonlyGrupoVT" target="_blank">@MoonlyGrupoVT</a></p>
+                </div>
+            </section>
+
+
+            <!-- Sección: Nuestra CEO -->
+            <section id="ceoSection" class="hidden-section">
+                <h2>Nuestra CEO</h2>
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <img src="images/ceo.png" alt="Imagen de la CEO" style="max-width: 300px; border-radius: 12px;">
+                    <p style="flex: 1; min-width: 250px;">
+                        La fundadora de Moonly ha trabajado durante años en la industria del entretenimiento digital. Su visión de crear un espacio donde las VTubers puedan florecer sin limitaciones ha sido clave para el crecimiento y éxito del grupo. Además de sus habilidades de liderazgo, es una apasionada del arte, la música y la innovación.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Moonly Grupo VTuber. Todos los derechos reservados.</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
