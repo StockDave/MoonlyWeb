@@ -12,9 +12,45 @@
     </header>
 
     <main>
-        <section class="members-section">
-            <h2>Nuestros Miembros</h2>
-            <table id="membersTable">
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="miembros">Miembros</button>
+            <button class="tab-button" data-tab="staff">Staff</button>
+            <button class="tab-button" data-tab="representantes">Representantes</button>
+        </nav>
+
+        <section id="miembros" class="tab-content active">
+            <h2>Miembros del Grupo</h2>
+            <table id="membersTable_miembros">
+                <thead>
+                    <tr>
+                        <th>Imagen de Perfil</th>
+                        <th>Nombre</th>
+                        <th>Redes Sociales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </section>
+
+        <section id="staff" class="tab-content">
+            <h2>Staff</h2>
+            <table id="membersTable_staff">
+                <thead>
+                    <tr>
+                        <th>Imagen de Perfil</th>
+                        <th>Nombre</th>
+                        <th>Redes Sociales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </section>
+
+        <section id="representantes" class="tab-content">
+            <h2>Representantes</h2>
+            <table id="membersTable_representantes">
                 <thead>
                     <tr>
                         <th>Imagen de Perfil</th>
@@ -29,7 +65,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Moonly Grupo VTuber. Todos los derechos reservados.</p>
+        <p>© 2025 Moonly Grupo VTuber. Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
