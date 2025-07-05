@@ -22,7 +22,20 @@
             {"platform": "Twitter", "url": "https://twitter.com/StockDaveZ" },
             {"platform": "YouTube", "url": "https://www.youtube.com/@stockdave" },
             {"platform": "TikTok", "url": "https://www.tiktok.com/@stockdavez" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/stockdavez" },
             {"platform": "Bsky", "url": "https://bsky.app/profile/stockdave.bsky.social" }
+        ]
+    },
+    {
+        "id": "member13",
+        "name": "Hatsu The Owl",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Hatsu.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/hatsutheowl" },
+            { "platform": "Twitter", "url": "https://x.com/firion34" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@HatsuTheOwl" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@hatsutheowl" }
         ]
     },
     {
@@ -34,33 +47,6 @@
             { "platform": "Twitch", "url": "https://www.twitch.tv/tzintzun_vt" },
             { "platform": "Twitter", "url": "https://twitter.com/Tzintzun_AC" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@tzintzun_vt" }
-        ]
-    },
-    {
-        "id": "member4",
-        "name": "Nachonachin",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/NachoNachin.jpg",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/nachonachin1" },
-            { "platform": "Twitter", "url": "https://twitter.com/nachonachin1" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@nachonachin01" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@Nachonachin1" },
-            { "platform": "Bsky", "url": "https://bsky.app/profile/nachonachin1.bsky.social" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/nachonachin1" },
-            { "platform": "IG Ilustraciones", "url": "https://www.instagram.com/nachonachin1_ilustraciones" },
-            { "platform": "IG Fotografias", "url": "https://www.instagram.com/nachonachin1_fotografias" },
-            {"platform": "beacons", "url": "https://beacons.ai/nachonachin1 "}
-        ]
-    },
-    {
-        "id": "member5",
-        "name": "ExeRer",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/ExeRer.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/exerervt" },
-            { "platform": "Twitter", "url": "https://twitter.com/ExeRerVT" }
         ]
     },
     {
@@ -85,7 +71,8 @@
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/murasakilusho" },
             { "platform": "Twitter", "url": "https://twitter.com/MurasakiLusho" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@murasakilusho" }
+            { "platform": "YouTube", "url": "https://www.youtube.com/@murasakilusho" },
+            { "platform": "Bsky", "url": "https://bsky.app/profile/murasakilusho.bsky.social" }
         ]
     },
     {
@@ -111,6 +98,133 @@
             { "platform": "TikTok", "url": "https://www.tiktok.com/@sweetxlemon_" },
             { "platform": "Bsky", "url": "https://bsky.app/profile/sweetlemon14.bsky.social" },
             { "platform": "Instagram", "url": "https://www.instagram.com/_sweet_lemon_3" }
+        ]
+    },
+    {
+        "id": "member10",
+        "name": "Jean Fischer",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Jean.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/jeanfischervt" },
+            { "platform": "Twitter", "url": "https://x.com/JeanFischerVT" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@jeanfischervt" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/jeanfischervt" }
+        ]
+    },
+    {
+        "id": "member11",
+        "name": "Cami",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Cami.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/iscami_senpaii" },
+            { "platform": "Twitter", "url": "https://x.com/senpaivt" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@camisenpaivt" }
+        ]
+    },
+    {
+        "id": "member4",
+        "name": "Nachonachin",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/NachoNachin.jpg",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/nachonachin1" },
+            { "platform": "Twitter", "url": "https://twitter.com/nachonachin1" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@nachonachin01" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@Nachonachin1" },
+            { "platform": "Bsky", "url": "https://bsky.app/profile/nachonachin1.bsky.social" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/nachonachin1" },
+            { "platform": "IG Ilustraciones", "url": "https://www.instagram.com/nachonachin1_ilustraciones" },
+            { "platform": "IG Fotografias", "url": "https://www.instagram.com/nachonachin1_fotografias" },
+            {"platform": "beacons", "url": "https://beacons.ai/nachonachin1 "}
+        ]
+    },
+    {
+        "id": "member12",
+        "name": "Alberto Botas",
+        "roles": ["Staff"],
+        "profileImage": "images/avatar/Botas.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/alberto_botas" },
+            { "platform": "Twitter", "url": "https://x.com/albertojuegooo" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@albertobotas" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@alberto_botas" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/alberto_botas" }
+        ]
+    },
+    {
+        "id": "member14",
+        "name": "Kela Drawi",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Kela.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/keladrawi" },
+            { "platform": "Twitter", "url": "https://x.com/KelaDraw" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@keladrawi" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/keladraw" },
+            { "platform": "Vgen", "url": "https://vgen.co/keladrawiius" }
+        ]
+    },
+    {
+        "id": "member15",
+        "name": "Ritcher Code",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Ritcher.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/ritchercode" },
+            { "platform": "Twitter", "url": "https://x.com/RitcherCode" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@Ritcher_Code" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@ritcher.code" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/ritchercode" }
+        ]
+    },
+    {
+        "id": "member16",
+        "name": "Shiki",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Shiki.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/shikinoraneko " },
+            { "platform": "Twitter", "url": "https://x.com/ShikiNoraneko" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@shikinoraneko" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@shikinoraneko" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/shikinoraneko" },
+            { "platform": "Vgen", "url": "https://vgen.co/ShikiNoraneko" }
+        ]
+    },
+    {
+        "id": "member17",
+        "name": "Nanaku",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Nanaku.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/nanaku_niku " },
+            { "platform": "Twitter", "url": "https://x.com/Nanaku_Niku" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@nanaku_niku" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@nanaku_niku" },
+            { "platform": "Vgen", "url": "https://vgen.co/Esponjitachan" }
+        ]
+    },
+    {
+        "id": "member18",
+        "name": "Kumogin",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Kumogin.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/kumoginkato " },
+            { "platform": "Twitter", "url": "https://x.com/KumoginKato" },
+            { "platform": "Vgen", "url": "https://vgen.co/Kumogin" }
+        ]
+    },
+    {
+        "id": "member5",
+        "name": "ExeRer",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/ExeRer.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/exerervt" },
+            { "platform": "Twitter", "url": "https://twitter.com/ExeRerVT" }
         ]
     }
 
