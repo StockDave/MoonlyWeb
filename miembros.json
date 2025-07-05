@@ -1,18 +1,19 @@
 [
     {
         "id": "member1",
-        "name": "Luna Starlight",
-        "profileImage": "images/luna_starlight.png",
+        "name": "StockDave",
+        "profileImage": "images/avatar/StockDave.png",
         "socials": [
-            {"platform": "YouTube", "url": "https://www.youtube.com/lunastarlight"},
-            {"platform": "Twitter", "url": "https://twitter.com/lunastarlight_vt"},
-            {"platform": "Twitch", "url": "https://www.twitch.tv/lunastarlight"}
+            {"platform": "Twitch", "url": "https://twitch.tv/stockdave"},
+            {"platform": "Twitter", "url": "https://twitter.com/StockDaveZ"},
+            {"platform": "YouTube", "url": "https://www.youtube.com/@stockdave"},
+            {"platform": "TikTok", "url": "https://www.tiktok.com/@stockdavez"}
         ]
     },
     {
         "id": "member2",
         "name": "Kai Astral",
-        "profileImage": "images/kai_astral.png",
+        "profileImage": "images/avatar/kai_astral.png",
         "socials": [
             {"platform": "YouTube", "url": "https://www.youtube.com/kaiastral"},
             {"platform": "Twitter", "url": "https://twitter.com/kaiastral_vt"},
@@ -22,7 +23,7 @@
     {
         "id": "member3",
         "name": "Seraphina Nova",
-        "profileImage": "images/seraphina_nova.png",
+        "profileImage": "images/avatar/seraphina_nova.png",
         "socials": [
             {"platform": "Twitch", "url": "https://www.twitch.tv/seraphinanova"},
             {"platform": "Twitter", "url": "https://twitter.com/seraphinanova_vt"}
