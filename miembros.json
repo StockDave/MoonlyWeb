@@ -1,25 +1,116 @@
 [
     {
         "id": "member1",
-        "name": "StockDave",
-        "roles": ["Miembro","Staff","Representante"],
-        "profileImage": "images/avatar/StockDave.png",
+        "name": "Nyanny",
+        "roles": ["Miembro","Representante"],
+        "profileImage": "images/avatar/Nyanny.png",
         "socials": [
-            {"platform": "Twitch", "url": "https://twitch.tv/stockdave"},
-            {"platform": "Twitter", "url": "https://twitter.com/StockDaveZ"},
-            {"platform": "YouTube", "url": "https://www.youtube.com/@stockdave"},
-            {"platform": "TikTok", "url": "https://www.tiktok.com/@stockdavez"}
+            {"platform": "Twitch", "url": "https://twitch.tv/nyannyvt"},
+            {"platform": "Twitter", "url": "https://twitter.com/Nyannyvt"},
+            {"platform": "YouTube", "url": "https://www.youtube.com/nyannyvt"},
+            {"platform": "TikTok", "url": "https://www.tiktok.com/@nyannyvt"},
+            {"platform": "beacons", "url": "https://beacons.ai/nyannyvt"}
         ]
     },
     {
         "id": "member2",
+        "name": "StockDave",
+        "roles": ["Miembro","Staff","Representante"],
+        "profileImage": "images/avatar/StockDave.png",
+        "socials": [
+            {"platform": "Twitch", "url": "https://twitch.tv/stockdave" },
+            {"platform": "Twitter", "url": "https://twitter.com/StockDaveZ" },
+            {"platform": "YouTube", "url": "https://www.youtube.com/@stockdave" },
+            {"platform": "TikTok", "url": "https://www.tiktok.com/@stockdavez" },
+            {"platform": "Bsky", "url": "https://bsky.app/profile/stockdave.bsky.social" }
+        ]
+    },
+    {
+        "id": "member3",
         "name": "TzinTzun",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/TzinTzun.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/tzintzun_vt" },
             { "platform": "Twitter", "url": "https://twitter.com/Tzintzun_AC" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@tzintzun0" }
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@tzintzun_vt" }
+        ]
+    },
+    {
+        "id": "member4",
+        "name": "Nachonachin",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/NachoNachin.jpg",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/nachonachin1" },
+            { "platform": "Twitter", "url": "https://twitter.com/nachonachin1" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@nachonachin01" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@Nachonachin1" },
+            { "platform": "Bsky", "url": "https://bsky.app/profile/nachonachin1.bsky.social" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/nachonachin1" },
+            { "platform": "IG Ilustraciones", "url": "https://www.instagram.com/nachonachin1_ilustraciones" },
+            { "platform": "IG Fotografias", "url": "https://www.instagram.com/nachonachin1_fotografias" },
+            {"platform": "beacons", "url": "https://beacons.ai/nachonachin1 "}
+        ]
+    },
+    {
+        "id": "member5",
+        "name": "ExeRer",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/ExeRer.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/exerervt" },
+            { "platform": "Twitter", "url": "https://twitter.com/ExeRerVT" }
+        ]
+    },
+    {
+        "id": "member6",
+        "name": "Nona",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Nona.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/nonafurry" },
+            { "platform": "Twitter", "url": "https://twitter.com/NonaFurry" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@nonafurry" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@nonafurry" },
+            { "platform": "Bsky", "url": "https://bsky.app/profile/nonafurry.bsky.social" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/nonafurryvt" }
+        ]
+    },
+    {
+        "id": "member7",
+        "name": "Lusho",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Lusho.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/murasakilusho" },
+            { "platform": "Twitter", "url": "https://twitter.com/MurasakiLusho" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@murasakilusho" }
+        ]
+    },
+    {
+        "id": "member8",
+        "name": "Death",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Death.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/mr_death19vt" },
+            { "platform": "Twitter", "url": "https://twitter.com/mr_death19vt" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@mr_death19vt" },
+            { "platform": "Bsky", "url": "https://bsky.app/profile/mrdeathvt.bsky.social" }
+        ]
+    },
+    {
+        "id": "member9",
+        "name": "Lemon",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Lemon.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/sweetlemonvt_" },
+            { "platform": "Twitter", "url": "https://x.com/SweetLemonVT" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@sweetxlemon_" },
+            { "platform": "Bsky", "url": "https://bsky.app/profile/sweetlemon14.bsky.social" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/_sweet_lemon_3" }
         ]
     }
 

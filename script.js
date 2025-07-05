@@ -10,6 +10,13 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 button.classList.remove('active');
             }
+
+            const footerElement = document.querySelector('footer');
+            footerElement.classList.remove('aventarAlFondo');
+
+            if(tabId === "staff" || tabId == "representantes") {
+                footerElement.classList.add('aventarAlFondo');
+            }
         });
 
         tabContents.forEach(content => {

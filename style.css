@@ -119,8 +119,6 @@ table tr:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     text-align: center;
     padding: 1rem 0;
     margin-top: 30px;
@@ -128,4 +126,9 @@ footer {
     color: white;
     font-size: 0.9em;
     width: 100%;
+}
+
+footer.aventarAlFondo {
+    position: fixed;
+    bottom: 0;
 }
