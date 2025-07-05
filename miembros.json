@@ -1,0 +1,31 @@
+[
+    {
+        "id": "member1",
+        "name": "Luna Starlight",
+        "profileImage": "images/luna_starlight.png",
+        "socials": [
+            {"platform": "YouTube", "url": "https://www.youtube.com/lunastarlight"},
+            {"platform": "Twitter", "url": "https://twitter.com/lunastarlight_vt"},
+            {"platform": "Twitch", "url": "https://www.twitch.tv/lunastarlight"}
+        ]
+    },
+    {
+        "id": "member2",
+        "name": "Kai Astral",
+        "profileImage": "images/kai_astral.png",
+        "socials": [
+            {"platform": "YouTube", "url": "https://www.youtube.com/kaiastral"},
+            {"platform": "Twitter", "url": "https://twitter.com/kaiastral_vt"},
+            {"platform": "TikTok", "url": "https://www.tiktok.com/@kaiastral_vt"}
+        ]
+    },
+    {
+        "id": "member3",
+        "name": "Seraphina Nova",
+        "profileImage": "images/seraphina_nova.png",
+        "socials": [
+            {"platform": "Twitch", "url": "https://www.twitch.tv/seraphinanova"},
+            {"platform": "Twitter", "url": "https://twitter.com/seraphinanova_vt"}
+        ]
+    }
+]
