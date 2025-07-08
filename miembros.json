@@ -66,7 +66,7 @@
     {
         "id": "member6",
         "name": "Lusho",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Lusho.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/murasakilusho" },
@@ -90,7 +90,7 @@
     {
         "id": "member8",
         "name": "Lemon",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Lemon.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/sweetlemonvt_" },
@@ -115,7 +115,7 @@
     {
         "id": "member10",
         "name": "Cami",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Cami.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/iscami_senpaii" },
@@ -126,7 +126,7 @@
     {
         "id": "member11",
         "name": "Nachonachin",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/NachoNachin.jpg",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/nachonachin1" },
@@ -156,7 +156,7 @@
     {
         "id": "member13",
         "name": "Kela Drawi",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Kela.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/keladrawi" },
@@ -182,7 +182,7 @@
     {
         "id": "member15",
         "name": "Shiki",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Shiki.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/shikinoraneko " },
@@ -196,7 +196,7 @@
     {
         "id": "member16",
         "name": "Nanaku",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Nanaku.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/nanaku_niku " },
@@ -209,7 +209,7 @@
     {
         "id": "member17",
         "name": "Kumogin",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Kumogin.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/kumoginkato " },

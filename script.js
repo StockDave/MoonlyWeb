@@ -74,10 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const members = allMembers.filter(member => member.roles.includes('Miembro'));
             const staff = allMembers.filter(member => member.roles.includes('Staff'));
             const representantes = allMembers.filter(member => member.roles.includes('Representante'));
+            const artistas = allMembers.filter(member => member.roles.includes('Artista'));
             const ceo = allMembers.find(member => member.roles.includes('CEO'));
 
             renderCEOSocials(ceo);
             renderMembersTable(members, 'membersTable_miembros');
+            renderMembersTable(artistas, 'membersTable_miembros_artistas');
             renderMembersTable(staff, 'membersTable_staff');
             renderMembersTable(representantes, 'membersTable_representantes');
 
