@@ -2,7 +2,7 @@
     {
         "id": "member1",
         "name": "Nyanny",
-        "roles": ["Miembro","Representante"],
+        "roles": ["Miembro","Representante","CEO"],
         "profileImage": "images/avatar/Nyanny.png",
         "socials": [
             {"platform": "Twitch", "url": "https://twitch.tv/nyannyvt"},
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "id": "member13",
+        "id": "member3",
         "name": "Hatsu The Owl",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Hatsu.png",
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "id": "member3",
+        "id": "member4",
         "name": "TzinTzun",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/TzinTzun.png",
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "id": "member6",
+        "id": "member5",
         "name": "Nona",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Nona.png",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "id": "member7",
+        "id": "member6",
         "name": "Lusho",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Lusho.png",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "id": "member8",
+        "id": "member7",
         "name": "Death",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Death.png",
@@ -88,7 +88,7 @@
         ]
     },
     {
-        "id": "member9",
+        "id": "member8",
         "name": "Lemon",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Lemon.png",
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "id": "member10",
+        "id": "member9",
         "name": "Jean Fischer",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Jean.png",
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "id": "member11",
+        "id": "member10",
         "name": "Cami",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Cami.png",
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "id": "member4",
+        "id": "member11",
         "name": "Nachonachin",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/NachoNachin.jpg",
@@ -148,13 +148,13 @@
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/alberto_botas" },
             { "platform": "Twitter", "url": "https://x.com/albertojuegooo" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@albertobotas" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@AlbertoBotas" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@alberto_botas" },
             { "platform": "Instagram", "url": "https://www.instagram.com/alberto_botas" }
         ]
     },
     {
-        "id": "member14",
+        "id": "member13",
         "name": "Kela Drawi",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Kela.png",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "id": "member15",
+        "id": "member14",
         "name": "Ritcher Code",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Ritcher.png",
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "id": "member16",
+        "id": "member15",
         "name": "Shiki",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Shiki.png",
@@ -194,7 +194,7 @@
         ]
     },
     {
-        "id": "member17",
+        "id": "member16",
         "name": "Nanaku",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Nanaku.png",
@@ -207,7 +207,7 @@
         ]
     },
     {
-        "id": "member18",
+        "id": "member17",
         "name": "Kumogin",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/Kumogin.png",
@@ -218,13 +218,23 @@
         ]
     },
     {
-        "id": "member5",
+        "id": "member18",
         "name": "ExeRer",
         "roles": ["Miembro"],
         "profileImage": "images/avatar/ExeRer.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/exerervt" },
             { "platform": "Twitter", "url": "https://twitter.com/ExeRerVT" }
+        ]
+    },
+    {
+        "id": "member19",
+        "name": "WilJc",
+        "roles": ["Staff"],
+        "profileImage": "images/avatar/WilJc.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/wiljc" },
+            { "platform": "Twitter", "url": "https://x.com/Wiljc02" }
         ]
     }
 

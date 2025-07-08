@@ -74,7 +74,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const members = allMembers.filter(member => member.roles.includes('Miembro'));
             const staff = allMembers.filter(member => member.roles.includes('Staff'));
             const representantes = allMembers.filter(member => member.roles.includes('Representante'));
+            const ceo = allMembers.find(member => member.roles.includes('CEO'));
 
+            renderCEOSocials(ceo);
             renderMembersTable(members, 'membersTable_miembros');
             renderMembersTable(staff, 'membersTable_staff');
             renderMembersTable(representantes, 'membersTable_representantes');
@@ -145,4 +147,22 @@ function mostrarSeccionDesdeHash() {
 
         sidebar.classList.remove('active');
     }
+}
+
+
+function renderCEOSocials(member) {
+    const socialsDiv = document.getElementById('ceoSocials');
+    if (!member || !member.socials || member.socials.length === 0) {
+        socialsDiv.innerHTML = "<p>No hay redes sociales disponibles.</p>";
+        return;
+    }
+
+    member.socials.forEach(social => {
+        const link = document.createElement('a');
+        link.href = social.url;
+        link.textContent = social.platform;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        socialsDiv.appendChild(link);
+    });
 }
