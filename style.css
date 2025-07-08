@@ -40,6 +40,25 @@ main {
     justify-content: center;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddd;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.tabs::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+@media (max-width: 600px) {
+    .tabs {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .tab-button {
+        flex: 0 0 auto;
+    }
 }
 
 .tab-button {
@@ -255,4 +274,43 @@ footer {
 
 #ceoSection .social-links {
     margin-top: 10px;
+}
+
+.ceo-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.ceo-text {
+    flex: 1;
+    min-width: 250px;
+    order: 1;
+}
+
+.ceo-image {
+    max-width: 300px;
+    border-radius: 12px;
+    order: 2;
+}
+
+@media (max-width: 768px) {
+    .ceo-layout {
+        flex-direction: column;
+    }
+
+    .ceo-text {
+        order: 1;
+    }
+
+    .ceo-image {
+        order: 3;
+        margin: 0 auto;
+    }
+
+    #ceoSocials {
+        order: 2;
+        margin-bottom: 10px;
+    }
 }
