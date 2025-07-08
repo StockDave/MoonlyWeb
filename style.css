@@ -247,3 +247,12 @@ footer {
 .about-footer a:hover {
     text-decoration: underline;
 }
+
+#ceoSection p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#ceoSection .social-links {
+    margin-top: 10px;
+}
