@@ -27,11 +27,14 @@ header {
 main {
     flex: 1;
     padding: 20px;
-    max-width: 900px;
-    margin: 20px auto;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
     background-color: white;
     border-radius: 8px;
+    margin: 20px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
 }
 
 /* ========== Tabs ========== */
@@ -42,10 +45,7 @@ main {
     margin-bottom: 20px;
     border-bottom: 2px solid #ddd;
     max-width: 100%;
-    width: 100%;
     box-sizing: border-box;
-    padding-inline: 5px;
-    scrollbar-width: none;
 }
 
 .tabs-wrapper::-webkit-scrollbar {
@@ -53,9 +53,10 @@ main {
 }
 
 .tabs {
-    display: inline-flex;
+    display: flex;
     flex-wrap: nowrap;
     white-space: nowrap;
+    min-width: max-content;
 }
 
 .tab-button {
