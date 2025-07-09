@@ -236,6 +236,17 @@
             { "platform": "Twitch", "url": "https://www.twitch.tv/wiljc" },
             { "platform": "Twitter", "url": "https://x.com/Wiljc02" }
         ]
+    },
+    {
+        "id": "member20",
+        "name": "ShiroZard",
+        "roles": ["Staff"],
+        "profileImage": "images/avatar/ShiroZard.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/shirozard__" },
+            { "platform": "Twitter", "url": "https://x.com/Shiro__Zard" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@shirozard__" }
+        ]
     }
 
 ]
