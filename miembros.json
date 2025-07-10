@@ -248,6 +248,32 @@
             { "platform": "Twitter", "url": "https://x.com/Shiro__Zard" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@shirozard__" }
         ]
+    },
+    {
+        "id": "member21",
+        "name": "Kiokomizuka",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Kio.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/kioko_mizuka011 " },
+            { "platform": "Twitter", "url": "https://x.com/Kiokomizuka011" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@KiokoMizuka011" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@kiokomizuka" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/kiokomizuka" }
+        ]
+    },
+    {
+        "id": "member22",
+        "name": "Drawchii",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Draw.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/drawchii" },
+            { "platform": "Twitter", "url": "https://x.com/Drawchii" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@Drawchii" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@drawchii" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/drawchii_" }
+        ]
     }
 
 ]
