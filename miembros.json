@@ -5,7 +5,7 @@
         "roles": ["Miembro","Representante","CEO"],
         "profileImage": "images/avatar/Nyanny.png",
         "socials": [
-            {"platform": "Twitch", "url": "https://twitch.tv/nyannyvt"},
+            {"platform": "Twitch", "url": "https://twitch.tv/nyannyvt" "icon": "fab fa-twitch" },
             {"platform": "Twitter", "url": "https://twitter.com/Nyannyvt"},
             {"platform": "YouTube", "url": "https://www.youtube.com/nyannyvt"},
             {"platform": "TikTok", "url": "https://www.tiktok.com/@nyannyvt"},
