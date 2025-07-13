@@ -134,11 +134,8 @@
             { "platform": "Twitter", "url": "https://twitter.com/nachonachin1" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@nachonachin01" },
             { "platform": "YouTube", "url": "https://www.youtube.com/@Nachonachin1" },
-            { "platform": "Bsky", "url": "https://bsky.app/profile/nachonachin1.bsky.social" },
             { "platform": "Instagram", "url": "https://www.instagram.com/nachonachin1" },
-            { "platform": "IG Ilustraciones", "url": "https://www.instagram.com/nachonachin1_ilustraciones" },
-            { "platform": "IG Fotografias", "url": "https://www.instagram.com/nachonachin1_fotografias" },
-            {"platform": "beacons", "url": "https://beacons.ai/nachonachin1 "}
+            { "platform": "IG Ilus", "url": "https://www.instagram.com/nachonachin1_ilustraciones" }
         ]
     },
     {
@@ -265,7 +262,7 @@
     {
         "id": "member22",
         "name": "Drawchii",
-        "roles": ["Miembro"],
+        "roles": ["Miembro","Artista"],
         "profileImage": "images/avatar/Draw.png",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/drawchii" },

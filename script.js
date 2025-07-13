@@ -47,14 +47,36 @@ document.addEventListener('DOMContentLoaded', () => {
             socialLinksDiv.classList.add('social-links');
 
             if (member.socials && member.socials.length > 0) {
+
                 member.socials.forEach(social => {
                     const link = document.createElement('a');
                     link.href = social.url;
-                    link.textContent = social.platform;
                     link.target = "_blank";
                     link.rel = "noopener noreferrer";
+                    link.classList.add('social-card');
+
+                    let platformIcon = social.platform.toLowerCase().replace(/\s+/g, '');
+                    if (platformIcon.includes("ig")) {
+                        platformIcon = "instagram";
+                    } else if(platformIcon.includes("twitter")) {
+                        platformIcon = "x";
+                    }
+
+                    const icon = document.createElement('img');
+                    icon.src = `images/iconos_redes/${platformIcon}.ico`;
+                    icon.alt = `${social.platform} icon`;
+                    icon.classList.add('social-icon');
+
+                    const label = document.createElement('span');
+                    label.textContent = social.platform;
+                    label.classList.add('social-label');
+
+                    link.appendChild(icon);
+                    link.appendChild(label);
+
                     socialLinksDiv.appendChild(link);
                 });
+
             } else {
                 socialLinksDiv.textContent = "N/A";
             }
@@ -162,9 +184,30 @@ function renderCEOSocials(member) {
     member.socials.forEach(social => {
         const link = document.createElement('a');
         link.href = social.url;
-        link.textContent = social.platform;
         link.target = "_blank";
         link.rel = "noopener noreferrer";
+        link.classList.add('social-card');
+
+        let platformIcon = social.platform.toLowerCase();
+        if (platformIcon.includes("ig")) {
+            platformIcon = "instagram";
+        } else if(platformIcon.includes("twitter")) {
+            platformIcon = "x";
+        }
+
+        const icon = document.createElement('img');
+        icon.src = `images/iconos_redes/${platformIcon}.ico`;
+        icon.alt = `${social.platform} icon`;
+        icon.classList.add('social-icon');
+
+        const label = document.createElement('span');
+        label.textContent = social.platform;
+        label.classList.add('social-label');
+
+        link.appendChild(icon);
+        link.appendChild(label);
+
         socialsDiv.appendChild(link);
     });
+
 }
