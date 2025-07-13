@@ -5,11 +5,11 @@
         "roles": ["Miembro","Representante","CEO"],
         "profileImage": "images/avatar/Nyanny.png",
          "socials": [
-             { "platform": "Twitch", "url": "https://twitch.tv/nyannyvt", "icon": "fab fa-twitch" },
-             { "platform": "Twitter", "url": "https://twitter.com/Nyannyvt", "icon": "fab fa-twitter" },
-             { "platform": "YouTube", "url": "https://www.youtube.com/nyannyvt", "icon": "fab fa-youtube" },
-             { "platform": "TikTok", "url": "https://www.tiktok.com/@nyannyvt", "icon": "fab fa-tiktok" },
-             { "platform": "beacons", "url": "https://beacons.ai/nyannyvt", "icon": "fas fa-link" }
+             { "platform": "Twitch", "url": "https://twitch.tv/nyannyvt" },
+             { "platform": "Twitter", "url": "https://twitter.com/Nyannyvt" },
+             { "platform": "YouTube", "url": "https://www.youtube.com/nyannyvt" },
+             { "platform": "TikTok", "url": "https://www.tiktok.com/@nyannyvt" },
+             { "platform": "beacons", "url": "https://beacons.ai/nyannyvt" }
     ]
     },
     {
