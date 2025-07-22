@@ -10,7 +10,7 @@
              { "platform": "YouTube", "url": "https://www.youtube.com/nyannyvt" },
              { "platform": "TikTok", "url": "https://www.tiktok.com/@nyannyvt" },
              { "platform": "beacons", "url": "https://beacons.ai/nyannyvt" }
-    ]
+        ]
     },
     {
         "id": "member2",
@@ -244,19 +244,6 @@
             { "platform": "Twitch", "url": "https://www.twitch.tv/shirozard__" },
             { "platform": "Twitter", "url": "https://x.com/Shiro__Zard" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@shirozard__" }
-        ]
-    },
-    {
-        "id": "member21",
-        "name": "Kiokomizuka",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Kio.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/kioko_mizuka011 " },
-            { "platform": "Twitter", "url": "https://x.com/Kiokomizuka011" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@KiokoMizuka011" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@kiokomizuka" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/kiokomizuka" }
         ]
     },
     {
