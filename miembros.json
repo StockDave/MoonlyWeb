@@ -258,6 +258,105 @@
             { "platform": "TikTok", "url": "https://www.tiktok.com/@drawchii" },
             { "platform": "Instagram", "url": "https://www.instagram.com/drawchii_" }
         ]
+    },
+    {
+        "id": "member23",
+        "name": "Miia",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Miia.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/is_miia" },
+            { "platform": "Twitter", "url": "https://x.com/is_miiaVT" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@is_miia" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@is_miia_" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/is_miia_" }
+        ]
+    },
+    {
+        "id": "member24",
+        "name": "Snarled",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Snarled.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/snarledvt" },
+            { "platform": "Twitter", "url": "https://x.com/Soy_Snarled" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@SnarledVT" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@snarledvt" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/soy_snarled" }
+        ]
+    },
+    {
+        "id": "member25",
+        "name": "Elmo Spycho",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Elmo.png",
+        "socials": [
+            { "platform": "Twitter", "url": "https://x.com/Elmo_spycho" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@elmitospycho" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@elmo.psycho" }
+        ]
+    },
+    {
+        "id": "member26",
+        "name": "Ara Lynn",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/AraLynn.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/ara_lynnvt" },
+            { "platform": "Twitter", "url": "https://x.com/Ara_LynnVT" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@AraLynnDirectos" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/ara_lynnvt" },
+            { "platform": "Vgen", "url": "https://vgen.co/ara_lynn" }
+        ]
+    },
+    {
+        "id": "member27",
+        "name": "El Pibe Sekiro",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Pibe.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/elpibesekiro" },
+            { "platform": "Twitter", "url": "https://x.com/ElPibeSekiroVT" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@PibeSekiro" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/elpibesekiro.vt" }
+        ]
+    },
+    {
+        "id": "member28",
+        "name": "Luceo",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Luceo.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/luceottv" },
+            { "platform": "Twitter", "url": "https://x.com/luceostarflame" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/luceottv" }
+        ]
+    },
+    {
+        "id": "member29",
+        "name": "Yhei LDR",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Yhei.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/yheildr" },
+            { "platform": "Twitter", "url": "https://x.com/Yhei_Ldr" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@YheiLDR" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@yhei.ldr" },
+            { "platform": "Instagram", "url": "https://www.instagram.com/yhei_ldr" }
+        ]
+    },
+    {
+        "id": "member30",
+        "name": "Monastic",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Monastic.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/monastic07" },
+            { "platform": "Twitter", "url": "https://x.com/M0nast1c" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@Monastic11037" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@monastic_07" },
+            { "platform": "Kick", "url": "https://kick.com/monastic07" }
+        ]
     }
 
 ]
