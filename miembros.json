@@ -165,19 +165,6 @@
         ]
     },
     {
-        "id": "member14",
-        "name": "Ritcher Code",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Ritcher.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/ritchercode" },
-            { "platform": "Twitter", "url": "https://x.com/RitcherCode" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@Ritcher_Code" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@ritcher.code" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/ritchercode" }
-        ]
-    },
-    {
         "id": "member15",
         "name": "Shiki",
         "roles": ["Miembro","Artista"],
@@ -282,7 +269,8 @@
             { "platform": "Twitter", "url": "https://x.com/Soy_Snarled" },
             { "platform": "YouTube", "url": "https://www.youtube.com/@SnarledVT" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@snarledvt" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/soy_snarled" }
+            { "platform": "Instagram", "url": "https://www.instagram.com/soy_snarled" },
+            { "platform": "Vgen", "url": "https://vgen.co/SnarledVT " }
         ]
     },
     {
@@ -356,6 +344,17 @@
             { "platform": "YouTube", "url": "https://www.youtube.com/@Monastic11037" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@monastic_07" },
             { "platform": "Kick", "url": "https://kick.com/monastic07" }
+        ]
+    },
+    {
+        "id": "member31",
+        "name": "Sorel",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Sorel.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/imsorel_" },
+            { "platform": "Twitter", "url": "https://x.com/im_sorel" },
+            { "platform": "YouTube", "url": "https://youtube.com/@imsorel" }
         ]
     }
 
