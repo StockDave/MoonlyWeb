@@ -127,7 +127,7 @@
     {
         "id": "member11",
         "name": "Nachonachin",
-        "roles": ["Miembro","Artista"],
+        "roles": ["Miembro","Artista","Representante"],
         "profileImage": "images/avatar/NachoNachin.jpg",
         "socials": [
             { "platform": "Twitch", "url": "https://www.twitch.tv/nachonachin1" },
