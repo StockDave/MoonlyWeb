@@ -27,18 +27,6 @@
         ]
     },
     {
-        "id": "member3",
-        "name": "Hatsu The Owl",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Hatsu.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/hatsutheowl" },
-            { "platform": "Twitter", "url": "https://x.com/firion34" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@HatsuTheOwl" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@hatsutheowl" }
-        ]
-    },
-    {
         "id": "member4",
         "name": "TzinTzun",
         "roles": ["Miembro"],
