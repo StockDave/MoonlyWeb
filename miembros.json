@@ -235,19 +235,6 @@
         ]
     },
     {
-        "id": "member23",
-        "name": "Miia",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Miia.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/is_miia" },
-            { "platform": "Twitter", "url": "https://x.com/is_miiaVT" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@is_miia" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@is_miia_" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/is_miia_" }
-        ]
-    },
-    {
         "id": "member24",
         "name": "Snarled",
         "roles": ["Miembro"],
