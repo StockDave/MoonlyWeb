@@ -235,20 +235,6 @@
         ]
     },
     {
-        "id": "member24",
-        "name": "Snarled",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Snarled.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/snarledvt" },
-            { "platform": "Twitter", "url": "https://x.com/Soy_Snarled" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@SnarledVT" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@snarledvt" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/soy_snarled" },
-            { "platform": "Vgen", "url": "https://vgen.co/SnarledVT " }
-        ]
-    },
-    {
         "id": "member25",
         "name": "Elmo Spycho",
         "roles": ["Miembro"],
