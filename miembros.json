@@ -140,19 +140,6 @@
         ]
     },
     {
-        "id": "member13",
-        "name": "Kela Drawi",
-        "roles": ["Miembro","Artista"],
-        "profileImage": "images/avatar/Kela.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/keladrawi" },
-            { "platform": "Twitter", "url": "https://x.com/KelaDraw" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@keladrawi" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/keladraw" },
-            { "platform": "Vgen", "url": "https://vgen.co/keladrawiius" }
-        ]
-    },
-    {
         "id": "member15",
         "name": "Shiki",
         "roles": ["Miembro","Artista"],
