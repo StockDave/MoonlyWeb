@@ -101,18 +101,6 @@
         ]
     },
     {
-        "id": "member10",
-        "name": "Cami",
-        "roles": ["Miembro","Artista"],
-        "profileImage": "images/avatar/Cami.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/iscami_senpaii" },
-            { "platform": "Twitter", "url": "https://x.com/senpaivt" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@camisenpaivt" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/cami_senpaii" }
-        ]
-    },
-    {
         "id": "member11",
         "name": "Nachonachin",
         "roles": ["Miembro","Artista","Representante"],
@@ -137,20 +125,6 @@
             { "platform": "YouTube", "url": "https://www.youtube.com/@AlbertoBotas" },
             { "platform": "TikTok", "url": "https://www.tiktok.com/@alberto_botas" },
             { "platform": "Instagram", "url": "https://www.instagram.com/alberto_botas" }
-        ]
-    },
-    {
-        "id": "member15",
-        "name": "Shiki",
-        "roles": ["Miembro","Artista"],
-        "profileImage": "images/avatar/Shiki.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/shikinoraneko " },
-            { "platform": "Twitter", "url": "https://x.com/ShikiNoraneko" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@shikinoraneko" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@shikinoraneko" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/shikinoraneko" },
-            { "platform": "Vgen", "url": "https://vgen.co/ShikiNoraneko" }
         ]
     },
     {
