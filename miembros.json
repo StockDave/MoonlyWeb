@@ -256,19 +256,6 @@
         ]
     },
     {
-        "id": "member30",
-        "name": "Monastic",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Monastic.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/monastic07" },
-            { "platform": "Twitter", "url": "https://x.com/M0nast1c" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@Monastic11037" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@monastic_07" },
-            { "platform": "Kick", "url": "https://kick.com/monastic07" }
-        ]
-    },
-    {
         "id": "member31",
         "name": "Sorel",
         "roles": ["Miembro"],
