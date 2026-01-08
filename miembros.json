@@ -265,6 +265,18 @@
             { "platform": "Twitter", "url": "https://x.com/im_sorel" },
             { "platform": "YouTube", "url": "https://youtube.com/@imsorel" }
         ]
+    },
+    {
+        "id": "member32",
+        "name": "Zaren",
+        "roles": ["Miembro"],
+        "profileImage": "images/avatar/Zaren.png",
+        "socials": [
+            { "platform": "Twitch", "url": "https://www.twitch.tv/zarenvt" },
+            { "platform": "Twitter", "url": "https://x.com/ZarenVT" },
+            { "platform": "YouTube", "url": "https://www.youtube.com/@ZarenVT" },
+            { "platform": "TikTok", "url": "https://www.tiktok.com/@zarenvt" }
+        ]
     }
 
 ]
