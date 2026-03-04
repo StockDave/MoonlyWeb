@@ -220,18 +220,6 @@
         ]
     },
     {
-        "id": "member27",
-        "name": "El Pibe Sekiro",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Pibe.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/elpibesekiro" },
-            { "platform": "Twitter", "url": "https://x.com/ElPibeSekiroVT" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@PibeSekiro" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/elpibesekiro.vt" }
-        ]
-    },
-    {
         "id": "member28",
         "name": "Luceo",
         "roles": ["Miembro"],
@@ -280,3 +268,4 @@
     }
 
 ]
+
