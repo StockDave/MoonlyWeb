@@ -13,20 +13,6 @@
         ]
     },
     {
-        "id": "member2",
-        "name": "StockDave",
-        "roles": ["Miembro","Staff","Representante"],
-        "profileImage": "images/avatar/StockDave.png",
-        "socials": [
-            {"platform": "Twitch", "url": "https://twitch.tv/stockdave" },
-            {"platform": "Twitter", "url": "https://twitter.com/StockDaveZ" },
-            {"platform": "YouTube", "url": "https://www.youtube.com/@stockdave" },
-            {"platform": "TikTok", "url": "https://www.tiktok.com/@stockdavez" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/stockdavez" },
-            {"platform": "Bsky", "url": "https://bsky.app/profile/stockdave.bsky.social" }
-        ]
-    },
-    {
         "id": "member4",
         "name": "TzinTzun",
         "roles": ["Miembro"],
@@ -268,4 +254,5 @@
     }
 
 ]
+
 
