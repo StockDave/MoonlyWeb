@@ -193,19 +193,6 @@
         ]
     },
     {
-        "id": "member26",
-        "name": "Ara Lynn",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/AraLynn.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/ara_lynnvt" },
-            { "platform": "Twitter", "url": "https://x.com/Ara_LynnVT" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@AraLynnDirectos" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/ara_lynnvt" },
-            { "platform": "Vgen", "url": "https://vgen.co/ara_lynn" }
-        ]
-    },
-    {
         "id": "member28",
         "name": "Luceo",
         "roles": ["Miembro"],
@@ -254,5 +241,6 @@
     }
 
 ]
+
 
 
