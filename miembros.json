@@ -169,19 +169,6 @@
         ]
     },
     {
-        "id": "member22",
-        "name": "Drawchii",
-        "roles": ["Miembro","Artista"],
-        "profileImage": "images/avatar/Draw.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/drawchii" },
-            { "platform": "Twitter", "url": "https://x.com/Drawchii" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@Drawchii" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@drawchii" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/drawchii_" }
-        ]
-    },
-    {
         "id": "member25",
         "name": "Elmo Spycho",
         "roles": ["Miembro"],
