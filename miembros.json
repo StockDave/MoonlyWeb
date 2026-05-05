@@ -138,16 +138,6 @@
         ]
     },
     {
-        "id": "member18",
-        "name": "ExeRer",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/ExeRer.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/exerervt" },
-            { "platform": "Twitter", "url": "https://twitter.com/ExeRerVT" }
-        ]
-    },
-    {
         "id": "member19",
         "name": "WilJc",
         "roles": ["Staff"],
