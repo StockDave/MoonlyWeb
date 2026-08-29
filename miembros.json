@@ -38,18 +38,6 @@
         ]
     },
     {
-        "id": "member6",
-        "name": "Lusho",
-        "roles": ["Miembro","Artista"],
-        "profileImage": "images/avatar/Lusho.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/murasakilusho" },
-            { "platform": "Twitter", "url": "https://twitter.com/MurasakiLusho" },
-            { "platform": "YouTube", "url": "https://www.youtube.com/@murasakilusho" },
-            { "platform": "Bsky", "url": "https://bsky.app/profile/murasakilusho.bsky.social" }
-        ]
-    },
-    {
         "id": "member7",
         "name": "Death",
         "roles": ["Miembro"],
