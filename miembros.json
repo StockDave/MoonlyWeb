@@ -63,18 +63,6 @@
         ]
     },
     {
-        "id": "member9",
-        "name": "Jean Fischer",
-        "roles": ["Miembro"],
-        "profileImage": "images/avatar/Jean.png",
-        "socials": [
-            { "platform": "Twitch", "url": "https://www.twitch.tv/jeanfischervt" },
-            { "platform": "Twitter", "url": "https://x.com/JeanFischerVT" },
-            { "platform": "TikTok", "url": "https://www.tiktok.com/@jeanfischervt" },
-            { "platform": "Instagram", "url": "https://www.instagram.com/jeanfischervt" }
-        ]
-    },
-    {
         "id": "member11",
         "name": "Nachonachin",
         "roles": ["Miembro","Artista","Representante"],
